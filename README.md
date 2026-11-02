@@ -11,9 +11,10 @@ git clone https://github.com/caoyunliang684-dev/ISBA2401-Final-Project-Group5.gi
 cd ISBA2401-Final-Project-Group5
 ```
 
-From the repository folder, install the Python dependencies and open the notebook.
+The notebook and its datasets are in [H2/](H2/). From the repository root, run the following commands.
 
 ```sh
+cd H2
 python -m pip install jupyterlab pandas matplotlib openpyxl
 python -m jupyterlab H2_Initial_Finding.ipynb
 ```
